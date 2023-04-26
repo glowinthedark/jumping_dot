@@ -22,6 +22,7 @@ class Example extends StatelessWidget {
           radius: 10,
           numberOfDots: 3,
           animationDuration = Duration(milliseconds: 200),
+          delay: 1500, // wait 1.5 seconds before looping the animation, default: 0
         ),
       ),
     );
